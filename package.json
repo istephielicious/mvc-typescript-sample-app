@@ -1,0 +1,25 @@
+{
+  "name": "mvc-typescript-sample-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\"./TS_source/main.ts\"",
+  "scripts": {
+    "build": "tsc ./TS_source/main.ts",
+    "start": "node ./TS_source/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "istephielicious@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^3.3.2",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.3.1",
+    "jquery-ui-dist": "^1.12.1",
+    "mongodb": "^2.2.31",
+    "primeui": "^4.1.15"
+  },
+  "devDependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "@types/mongodb": "^3.0.18"
+  }
+}
